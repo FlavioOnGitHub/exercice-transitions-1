@@ -1,0 +1,125 @@
+:root {
+  --rich-black: #01161e;
+  --midnight-green: #124559;
+  --steel-teal: #598392;
+  --ash-grey: #aec3b0;
+  --beige: #eff6e0;
+}
+
+#ex01 .box:hover {
+  background: var(--midnight-green);
+}
+
+#ex02 .box:hover {
+  background: var(--midnight-green);
+}
+
+#ex02 .box {
+  transition: background 0.4s ease;
+}
+
+#ex03 .box:hover {
+  background: var(--midnight-green);
+}
+
+#ex03 .box {
+  transition: background 0.4s 0.4s ease;
+}
+
+#ex04 .box:hover {
+  background-color: var(--midnight-green);
+  color: var(--beige);
+}
+
+#ex04 .box {
+  transition: background-color 0.4s ease, color 0.4s;
+}
+
+#ex05 .box:hover {
+  background-color: var(--midnight-green);
+  color: var(--beige);
+}
+
+#ex05 .box {
+  transition: background-color 0.4s ease, color 0.4s 0.3s;
+}
+
+#ex06 .wrapper:hover .box {
+  background-color: var(--midnight-green);
+}
+
+#ex06 .box {
+  transition: background-color 0.4s ease;
+}
+
+#ex07 .wrapper:hover .box {
+  background-color: var(--midnight-green);
+}
+
+#ex07 .wrapper :nth-child(1) {
+  transition: background-color 0.4s 0.2s ease;
+}
+
+#ex07 .wrapper :nth-child(2) {
+  transition: background-color 0.4s 0.4s ease;
+}
+
+#ex07 .wrapper :nth-child(3) {
+  transition: background-color 0.4s 0.6s ease;
+}
+
+#ex08 .wrapper:hover .box {
+  background-color: var(--beige);
+}
+
+#ex08 .wrapper:hover {
+  background-color: var(--midnight-green);
+}
+
+#ex08 .box {
+  transition: background-color 0.2s ease-in;
+}
+
+#ex08 .wrapper {
+  transition: background-color 0.2s ease-in;
+}
+
+#ex09 .wrapper:hover .box {
+  background-color: var(--beige);
+}
+
+#ex09 .wrapper:hover {
+  background-color: var(--midnight-green);
+}
+
+#ex09 .box {
+  transition: background-color 0.2s 0.3s ease-in;
+}
+
+#ex09 .wrapper {
+  transition: background-color 0.2s ease-in;
+}
+
+#ex10 .box:hover {
+  transform: translateY(20px);
+}
+
+#ex10 .box {
+  transition: transform 0.4s ease-in-out;
+}
+
+#ex11 .box:hover {
+  transform: rotate(90deg);
+}
+
+#ex11 .box {
+  transition: transform 0.4s ease-in-out;
+}
+
+#ex12 .box:hover {
+  transform: scale(1.2);
+}
+
+#ex12 .box {
+  transition: transform 0.4s ease-in-out;
+}
